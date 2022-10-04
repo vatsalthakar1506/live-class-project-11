@@ -529,8 +529,13 @@ small {
 .nav-menu-icon {
   display: none;
 }
-
 @media (max-width: 1490px) {
+  .cards {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+}
+@media (max-width: 1300px) {
   .heading-one > h1 {
   }
   .blog-content {
